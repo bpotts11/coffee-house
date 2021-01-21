@@ -1,15 +1,44 @@
+* {
+    font-family:fantasy;
+    color: whitesmoke;
+    text-shadow: 3px 3px black;
+}
+
 header {
     text-align: center;
-    padding: 10px;
-}   
+    padding: 30px;
+    font-size: 3em;
+    border-bottom: whitesmoke 1px dashed;
+}
+
+body{
+    background-color: #443d3d;
+    margin: 0 auto;
+}
+
+section{
+    margin: 60px 0;
+}
+
+article{
+    text-align: center;
+}
+
 .list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .shop{
-    display: flex;
     flex-basis: 30%;
-    border: dashed black 1px;
-    padding: 2px;
+    border: dashed whitesmoke .5px;
+    padding: 5px;
+    margin: 5px 0;
+    font-size: 1.25em;
+}
+
+.shop:hover{
+    font-weight: bolder;
+    text-shadow: 5px 5px black;
+    color: white;
 }
